@@ -88,4 +88,4 @@ app.post("/contact", async (req, res) => {
   }
 });
 
-app.listen(process.emv.PORT||5000);
+app.listen(process.env.PORT||5000);
